@@ -12,116 +12,157 @@ export const navItems: INavData[] = [
   },
   {
     title: true,
-    name: 'Theme'
+    name: 'Customer'
   },
   {
-    name: 'Color',
+    name: 'Apple Products',
     url: '/theme/colors',
     icon: 'icon-drop'
   },
   {
-    name: 'Typography',
+    name: 'Smart phones',
     url: '/theme/typography',
     icon: 'icon-pencil'
   },
   {
-    title: true,
-    name: 'Components'
+    name: 'Mobile Accessories',
+    url: '',
+    icon: 'icon-pencil'
   },
   {
-    name: 'Base',
+    name: 'Purchases',
+    url: '',
+    icon: 'icon-pencil'
+  },
+  {
+    title: true,
+    name: 'Admin'
+  },
+  {
+    name: 'Customers',
     url: '/base',
     icon: 'icon-puzzle',
-    children: [
-      {
-        name: 'Cards',
-        url: '/base/cards',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Carousels',
-        url: '/base/carousels',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Collapses',
-        url: '/base/collapses',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Forms',
-        url: '/base/forms',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Navbars',
-        url: '/base/navbars',
-        icon: 'icon-puzzle'
-
-      },
-      {
-        name: 'Pagination',
-        url: '/base/paginations',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Popovers',
-        url: '/base/popovers',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Progress',
-        url: '/base/progress',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Switches',
-        url: '/base/switches',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tables',
-        url: '/base/tables',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tabs',
-        url: '/base/tabs',
-        icon: 'icon-puzzle'
-      },
-      {
-        name: 'Tooltips',
-        url: '/base/tooltips',
-        icon: 'icon-puzzle'
-      }
-    ]
+    // children: [
+    //   {
+    //     name: 'Cards',
+    //     url: '/base/cards',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Carousels',
+    //     url: '/base/carousels',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Collapses',
+    //     url: '/base/collapses',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Forms',
+    //     url: '/base/forms',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Navbars',
+    //     url: '/base/navbars',
+    //     icon: 'icon-puzzle'
+    //
+    //   },
+    //   {
+    //     name: 'Pagination',
+    //     url: '/base/paginations',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Popovers',
+    //     url: '/base/popovers',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Progress',
+    //     url: '/base/progress',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Switches',
+    //     url: '/base/switches',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Tables',
+    //     url: '/base/tables',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Tabs',
+    //     url: '/base/tabs',
+    //     icon: 'icon-puzzle'
+    //   },
+    //   {
+    //     name: 'Tooltips',
+    //     url: '/base/tooltips',
+    //     icon: 'icon-puzzle'
+    //   }
+    // ]
   },
   {
-    name: 'Buttons',
+    name: 'Sales Agent',
     url: '/buttons',
     icon: 'icon-cursor',
-    children: [
-      {
-        name: 'Buttons',
-        url: '/buttons/buttons',
-        icon: 'icon-cursor'
-      },
-      {
-        name: 'Dropdowns',
-        url: '/buttons/dropdowns',
-        icon: 'icon-cursor'
-      },
-      {
-        name: 'Brand Buttons',
-        url: '/buttons/brand-buttons',
-        icon: 'icon-cursor'
-      }
-    ]
+    // children: [
+    //   {
+    //     name: 'Buttons',
+    //     url: '/buttons/buttons',
+    //     icon: 'icon-cursor'
+    //   },
+    //   {
+    //     name: 'Dropdowns',
+    //     url: '/buttons/dropdowns',
+    //     icon: 'icon-cursor'
+    //   },
+    //   {
+    //     name: 'Brand Buttons',
+    //     url: '/buttons/brand-buttons',
+    //     icon: 'icon-cursor'
+    //   }
+    // ]
   },
   {
-    name: 'Charts',
+    name: 'Supplier',
+    url: '/buttons',
+    icon: 'icon-cursor',
+    // children: [
+    //   {
+    //     name: 'Buttons',
+    //     url: '/buttons/buttons',
+    //     icon: 'icon-cursor'
+    //   },
+    //   {
+    //     name: 'Dropdowns',
+    //     url: '/buttons/dropdowns',
+    //     icon: 'icon-cursor'
+    //   },
+    //   {
+    //     name: 'Brand Buttons',
+    //     url: '/buttons/brand-buttons',
+    //     icon: 'icon-cursor'
+    //   }
+    // ]
+  },
+  {
+    name: 'Add New Item',
     url: '/charts',
-    icon: 'icon-pie-chart'
+    icon: 'icon-pie-chart',
+    badge: {
+      variant: 'info',
+      text: 'NEW'
+    }
+  },
+  {
+    name: 'View Orders',
+    url: '/buttons',
+    icon: 'icon-cursor',
   },
   {
     name: 'Icons',
